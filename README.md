@@ -11,8 +11,8 @@
 7. Requirement and analysis
 7.1 Problem Definition
 7.2 Requirement Specification
-7.3 Hardware Requirements
-   The hardware requirements for web development with ASP.NET can vary depending on the complexity of your projects and the scale of your applications. However, here are some general recommendations:
+**    Hardware Requirements
+**    The hardware requirements for web development with ASP.NET can vary depending on the complexity of your projects and the scale of your applications. However, here are some general recommendations:
 
     Processor (CPU): A modern multi-core processor (such as Intel Core i5 or higher, or AMD Ryzen 5 or higher) will provide good performance for development tasks.
 
@@ -31,5 +31,5 @@
    Peripherals: A comfortable keyboard, mouse or trackpad, and possibly a drawing tablet if you're doing any design work.
 
 
-7.4 Software Requirements
-7.5 Conceptual Models
+7.3 Software Requirements
+7.4 Conceptual Models
