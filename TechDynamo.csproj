@@ -90,6 +90,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Images\android-chrome-192x192.png" />
+    <Content Include="Images\android-chrome-512x512.png" />
+    <Content Include="Images\apple-touch-icon.png" />
+    <Content Include="Images\favicon-16x16.png" />
+    <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\logo-no-background.png" />
     <Content Include="Images\pen_icon.png" />
     <Content Include="Images\somaiya_bg.jpg" />
@@ -102,6 +108,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Student_profile.aspx" />
+    <Content Include="stud_applied.aspx" />
     <Content Include="Stud_Registration.aspx" />
     <Content Include="s_events.aspx" />
     <Content Include="Web.config" />
@@ -182,6 +189,13 @@
     </Compile>
     <Compile Include="Student_profile.aspx.designer.cs">
       <DependentUpon>Student_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stud_applied.aspx.cs">
+      <DependentUpon>stud_applied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stud_applied.aspx.designer.cs">
+      <DependentUpon>stud_applied.aspx</DependentUpon>
     </Compile>
     <Compile Include="Stud_Registration.aspx.cs">
       <DependentUpon>Stud_Registration.aspx</DependentUpon>
