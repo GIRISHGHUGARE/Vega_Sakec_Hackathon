@@ -15,6 +15,7 @@
 
 ## Requirement and analysis
 ### Problem Definition
+The web-app in question is designed to address the issue of student stress related to placement interviews. The primary functionality of this app includes placement scheduling, which helps streamline the process and reduces uncertainty for students. Additionally, the app facilitates communication among students, allowing them to share insights and advice, thereby fostering a supportive community.
 ### Requirement Specification
 ### Hardware Requirements
         The hardware requirements for web development with ASP.NET can vary depending on the complexity of your projects and the scale of your applications. However, here are some general recommendations:
@@ -56,5 +57,3 @@
       Additional Tools and Libraries:Depending on your specific requirements, you may need additional tools or libraries for tasks such as frontend development (JavaScript frameworks like React, Angular, or     Vue.js), dependency management (NuGet), or task automation (npm, Gulp, or Grunt).
 
     
-
-### Conceptual Models
