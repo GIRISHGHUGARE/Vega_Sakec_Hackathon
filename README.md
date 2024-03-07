@@ -1,23 +1,58 @@
 # Vega_Sakec_Hackathon
 ## Title Page
 
-## Abstract
 
-## Table of Content
-4. Table of Figures
-   
+
 ## Introduction
-### Background
+
+      TalentTrove is designed to help students prepare for and succeed in their placement interviews. The app offers a range of features to support students in introducing themselves effectively to potential employers.
+      
+      Introducing oneself in a job interview can be a nerve-wracking experience, but it's also a crucial opportunity to make a strong first impression. With the university placement interview web-app, students can practice their self-introduction and receive feedback to help them improve.
+      
+      The app includes a range of tips and resources on how to introduce oneself in a job interview, such as how to present oneself confidently, how to showcase relevant skills and experience, and how to avoid common mistakes. The app also offers the opportunity to practice introducing oneself in a simulated interview environment, allowing students to build their confidence and refine their presentation skills.
+      
+      By using the university placement interview web-app, students can increase their chances of success in placement interviews and take a significant step towards their dream careers.
+
 ### Objectives
+
+      The objectives of TalentTrove for placement scheduling and communication include:
+      
+         Automating the process of college placement activities by providing an online application that eliminates manual activities in the current placement system.
+         Enabling students to access job vacancies and company requirements, and maintaining their information and curriculum vitae.
+         Providing a requested list of candidates to recruiters based on their specific requirements.
+         Providing a forum or discussion feature for students to share insights and advice.
+         Allowing companies to log in and issue placements directly at the university.
+         
 ### Purpose, Scope
+      
+      The purpose of this web-app is to address the issue of student stress related to placement interviews by providing a streamlined and organized system for placement scheduling, communication, and direct interaction with potential employers. The app aims to provide a centralized platform that simplifies the placement process for all stakeholders, including students, companies, and university administration.
+      
+      The scope of the web-app includes:
+
+      Facilitating placement scheduling through automation and digitalization of the process.
+      Enabling better communication among students through a messaging or discussion forum feature.
+      Providing companies with the ability to log in and issue placements directly at the university.
 
 ## Survey of technologies
 
+      List of Technologies:
+      
+         ASP.NET Core (.NET Framework)
+         Microsoft MySQL Database
+
+
 ## Requirement and analysis
+
+      The requirement analysis for this web-app involves identifying the needs and functionalities necessary to address student stress related to placement interviews. The app should facilitate placement scheduling, which can be achieved through automation and digitalization of the process. This can help streamline the scheduling process, reduce uncertainty, and minimize delays for students.
+      
+      Furthermore, the app should enable better communication among students, allowing them to share insights and advice. This can be achieved through the implementation of a messaging or discussion forum feature within the app.
+      
+      Additionally, the app should provide companies with the ability to log in and issue placements directly at the university. This feature can simplify the placement process for companies and ensure a more efficient and organized system for the university's administration.
+
 ### Problem Definition
 
 
-The web-app in question is designed to address the issue of student stress related to placement interviews. The primary functionality of this app includes placement scheduling, which helps streamline the process and reduces uncertainty for students. Additionally, the app facilitates communication among students, allowing them to share insights and advice, thereby fostering a supportive community.
+      The web-app in question is designed to address the issue of student stress related to placement interviews. The primary functionality of this app includes placement scheduling, which helps streamline the process and reduces uncertainty for students. Additionally, the app facilitates communication among students, allowing them to share insights and advice, thereby fostering a supportive community.
 
 ### Requirement Specification
 ### Hardware Requirements
