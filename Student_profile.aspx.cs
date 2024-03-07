@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 namespace TechDynamo
 {
     public partial class Student_profile : System.Web.UI.Page
     {
+        string uname;
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\TechDynamo\TechDynamo\TechDynamo\App_Data\Database1.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
@@ -21,7 +24,11 @@ namespace TechDynamo
             City.ReadOnly = true;
 
             con.Open();
-            string que = "select * from student where id = 3";
+            if(Session["user"] != null)
+            {
+                uname = Session["user"].ToString();
+            }
+            string que = "select * from student where email = '"+uname+"'";
             SqlCommand cmd2 = new SqlCommand(que, con);
             SqlDataReader sr = cmd2.ExecuteReader();
             while (sr.Read())
